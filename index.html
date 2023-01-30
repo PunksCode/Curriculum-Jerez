@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/af63097f6a.js" crossorigin="anonymous"></script>
 </head>
 <body onload="inicializarEventos()">
     <header class="header">
@@ -73,12 +74,28 @@
               </aside>
     </main>
     <footer class="footer">
+      <div id="contacto">
         <h2>Contacto</h2>
-            <p>Teléfono: 54-388-4602354</p>
-            <p>Mail: agusxxpunk77@gmail.com</p>
-            <p id="facebook">Facebook: Agustin Jerez</p>
-            <p id="instagram">Instagram: agustinpunks</p>
-            <p>Copyright © 2023 Agustin Jerez</p>
+        <p><a href="https://api.whatsapp.com/send?phone=543884602354" class="whatsapp-link">
+          <i class="fa-brands fa-whatsapp"></i> Enviar mensaje a través de WhatsApp</a></p>
+        <p><a href="mailto:agusxxpunk77@gmail.com" class="gmail-link">
+          <i class="fa-brands fa-google"></i> Escribir a Agusxxpunk77</a></p>
+          <p id="twitter">
+            <i class="fa-brands fa-twitter"></i> Agustin Jerez</p>
+            <p id="instagram">
+              <i class="fa-brands fa-instagram"></i> agustinpunks</p>
+          </div>
+            <form id="formulario-contacto">
+              <h2>Solicitud de Detalles</h2>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name"><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br>
+              <label for="subject">Asunto:</label>
+              <input type="text" id="subject" name="subject"><br>
+              <button type="submit">Enviar</button>
+            </form>
+            <p class="center">Copyright © 2023 Agustin Jerez</p>
     </footer>
 </body>
 </html>
