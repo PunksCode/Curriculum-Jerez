@@ -34,6 +34,7 @@ nav ul {
 }
 nav li {
   margin-right: 1em;
+  font-size: 20px;
 }
 nav a {
   color: white;
@@ -79,13 +80,13 @@ footer {
   margin: 30px;
   display: block;
 }
-/* Añadir bordes a las imágenes */
+/* Añadi bordes a las imágenes */
 img {
   border: 1px solid #ccc;
   
 }
 
-/* Añadir estilos al hover de las imágenes */
+/* Añadi estilos al hover de las imágenes */
 img:hover {
   box-shadow: 0 0 10px #ccc;
   cursor: pointer;
@@ -118,12 +119,14 @@ font-size: 18px ;
 }
 .center {
 text-align: center;
+margin-top: 10px;
 }
 #formulario-contacto {
 position: absolute;
-top: calc(100% - 170px);
+top: calc(100% - 240px);
 right: 0;
-width: 30%;
+width: 250px;
+height: 200px;
 text-align: right;
 margin-right: 20px;
 }
@@ -133,10 +136,10 @@ color: green;
 .gmail-link {
 color:red
 }
-#twitter{
+.twitter-link{
 color: #3DCED8;
 }
-#instagram{
+.instagram-link{
 color:#FBCCD2;
 }
 @media only screen and (max-width: 720px) {
@@ -162,6 +165,20 @@ footer {
   width: 100%;
   margin-top: 20px;
 }
+}
+button {
+background-color: dodgerblue;
+cursor: pointer;
+}
+#print-btn {
+background-color: red;
+border: 5px solid;
+border-radius: 25px;
+text-transform: uppercase;
+text-align: center;
+font-size: 15px;
+line-height: 20px;
+margin-top: 30px;
 }
 
 
